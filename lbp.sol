@@ -21,7 +21,7 @@ interface tokenRecipient { function receiveApproval(address _from, uint256 _valu
 
 contract CCXTokenERC20 {
     string public constant _myTokeName = 'Liberterian Pound';
-    string public constant _mySymbol = 'LBT';
+    string public constant _mySymbol = 'LBP';
     uint public constant _myinitialSupply = 1000000000;
     uint8 public constant _myDecimal = 18;
     // Public variables of the token
